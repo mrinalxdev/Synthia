@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/Dev.png"
 
 const Navbar = () => {
   return (
     <div className="max-w-[90%] m-auto mt-2 ">
       <div className="flex flex-row justify-between items-center">
         <div className="text-3xl  logo">
-          <Link to="/">SchoolDevs</Link>
+          <Link to="/">
+            <h1>💻</h1>
+          </Link>
         </div>
         {/* NavElements */}
         <div>
