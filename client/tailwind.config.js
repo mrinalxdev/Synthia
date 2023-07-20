@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFmaily : {
+        'logo' : ['PT Sans', "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
