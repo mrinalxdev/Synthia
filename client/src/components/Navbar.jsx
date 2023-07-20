@@ -8,7 +8,6 @@ const Navbar = () => {
         <div className="text-3xl  logo">
           <Link to="/">SchoolDevs</Link>
         </div>
-
         {/* NavElements */}
         <div>
           <div className="px-3 font-mono">
@@ -25,7 +24,7 @@ const Navbar = () => {
         </div>
         <div>
           <Link>
-            <button className="border-[2px] px-6 py-2 rounded-3xl border-[#071952] transition-all duration-150 hover:bg-[#071952] hover:text-[#fff]">
+            <button className="px-7 py-2 rounded-3xl  transition-all duration-150 hover:bg-[#071952] hover:text-[#fff]">
               Let's Learn
             </button>
           </Link>
