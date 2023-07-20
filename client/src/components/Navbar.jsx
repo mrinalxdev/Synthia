@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <div>
           <Link>
-            <button className="px-7 py-2 rounded-3xl  transition-all duration-150 hover:bg-[#071952] hover:text-[#fff]">
+            <button className="px-7 py-2 border-2 border-[#071952] rounded-3xl  transition-all duration-150 hover:bg-[#071952] hover:text-[#fff]">
               Let's Learn
             </button>
           </Link>
