@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../assets/hero.png";
+import hero from "../../assets/hero.svg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
               The Tower of Syntax <br /> Climbing the first rungs
             </h1>
           </div>
-          <div className="max-w-[750px] ml-2 mt-[2rem] leading-7 text-[18px]">
+          <div className="max-w-[650px] ml-2 mr-4 mt-[2rem] leading-7 text-[18px]">
             <p>
               In the Tower of Syntax, you'll learn the building blocks of
               programming languages and gain a solid foundation. As you climb
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         {/* IMAGE  */}
         <div>
-          <img src={hero} className="w-[650px] pt-[20px] h-full" />
+          <img src={hero} className="w-[390px] pt-[20px] ml-[80px] h-full" />
         </div>
       </div>
     </div>

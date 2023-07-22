@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="max-w-[90%] m-auto mt-2 ">
       <div className="flex flex-row justify-between items-center">
-        <div className="text-3xl  logo">
+        <div className="text-4xl  logo">
           <Link to="/">
             <h1>💻</h1>
           </Link>
@@ -14,14 +14,14 @@ const Navbar = () => {
         {/* NavElements */}
         <div>
           <div className="px-3 font-mono">
-            <Link to="/" className="px-9">
-              Our Community
+            <Link to="https://discord.gg/We6bV3pF" className="px-9">
+               Community
             </Link>
             <Link to="/" className="px-9">
-              Our Discord
+               Mentoring
             </Link>
             <Link to="/" className="px-9">
-              Our Twitter
+               Twitter
             </Link>
           </div>
         </div>
