@@ -4,7 +4,7 @@ import logo from "../assets/Dev.png"
 
 const Navbar = () => {
   return (
-    <div className="max-w-[90%] m-auto mt-2 ">
+    <div className="max-w-[90%] m-auto mt-2 sm:max">
       <div className="flex flex-row justify-between items-center">
         <div className="text-4xl  logo">
           <Link to="/">
