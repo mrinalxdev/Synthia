@@ -7,7 +7,7 @@ import GetStarted from "./GetStarted";
 const LayoutHome = () => {
   return (
     <div>
-      <div className="flex m-4 items-center justify-between">
+      <div className="flex m-auto items-center justify-between max-w-[1240px] p-2">
         <Platform />
         <GetStarted />
       </div>
