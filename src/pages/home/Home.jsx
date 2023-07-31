@@ -4,7 +4,7 @@ import LayoutHome from "./LayoutHome";
 
 const Home = () => {
   return (
-    <div className="min-w-screen min-h-screen">
+    <div className="min-w-screen min-h-[90%]">
       <LayoutHome />
     </div>
   );

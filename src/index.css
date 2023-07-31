@@ -3,9 +3,22 @@
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #000300;
-    color: #faf4f4;
+  margin: 0;
+  padding: 0;
+  background-color: #000300;
+  color: #faf4f4;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-thumb {
+  background: #faf4f4;
+  border-radius: 10px;
 }
 
+.home {
+  overflow: hidden;
+}
